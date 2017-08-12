@@ -1,0 +1,174 @@
+/**/
+body
+{
+	background-image: url('cool.jpg');
+	color: #000305;
+	font-size: 87.5%;
+	font-family: Arial, 'Lusice Sans Unicode';
+	line-height: 1.5;
+	text-align: left;
+}
+.post-info
+{
+	font-style: italic;
+	color: #999;
+	font-size:87%;
+}
+a
+{
+	text-decoration: none;
+	
+}
+a:link
+{
+	color: #CF5C3F;
+}
+
+a:visited
+{
+ 
+}
+a:hover, a:active{
+	background-color: #CF5C3F;
+	color:#FFF;
+}
+.body
+{
+	
+	margin: 0 auto;
+	width: 70%;
+	clear: both;
+}
+
+
+.content img
+{
+	width: 30%;
+	height: auto;
+	padding: 2% 4%;
+	border-radius: 40px;
+    float: left;
+}
+
+.mainheader nav
+{
+	background-image: url('cool.jpg');
+	height: 40px;
+	width:500px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+
+}
+
+
+.mainheader nav a:link, .mainHeader nav a:visited
+{
+	color: #FFF;
+	display: inline-block;
+	padding: 10px 15px;
+	height: 20px;
+}
+.mainheader nav a:hover, .mainHeader nav a:active,
+.mainheader nav .active a:link, .mainheader nav .active a:visited
+{
+	background-color: #CF5C3F;
+	text-shadow: none;
+}
+.mainheader nav ul
+{
+	list-style: none;
+	margin: 0 auto;
+	display: inline-block;
+    list-style-type: none;
+}
+.mainheader nav ul li
+{
+	float: left;
+	display: inline;
+}
+.mainheader nav ul li a
+{
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.maincontent
+{
+	
+	line-height: 25px;
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+.content
+{
+	
+	width: 50%;
+	float:left;
+}
+.topcontent
+{
+	
+	background-color:rgba(255,255,255,0.60);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.botcontent
+{
+
+	background-color:rgba(255,255,255,0.60);
+	border-radius: 5px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	padding: 3% 5%;
+	margin-top: 2%;
+}
+.top-sidebar
+{
+	
+
+	width: 30%;
+	float: left;
+	background-color:rgba(255,255,255,0.35);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 3%;
+	padding: 1% 1%;
+	
+}
+.top-sidebar nav ul
+{
+	list-style: none;
+	margin: 0 auto;
+	display: inline-block;
+    list-style-type: none; 
+}
+.top-sidebar nav ul li
+{
+	padding: 3% 0%;
+}
+.top-sidebar h2
+{
+	font-family: "Times New Roman", Georgia, Serif;
+	font-size:130%;
+	text-align: center;
+}
+.mainfooter
+{
+	width: 100%;
+	float: left;
+	border-radius: 5px;
+	background-color:rgba(255,255,255,0.10);
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	margin: 2% 0 2% 0%;
+}
+.mainfooter p
+{
+	width: 92%;
+	margin: 2% auto;
+	color: #FFF;
+}
