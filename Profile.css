@@ -1,7 +1,7 @@
 /**/
 body
 {
-	background-image: url('cool.jpg');
+	background-image: url('background-main.jpg');
 	color: #000305;
 	font-size: 87.5%;
 	font-family: Arial, 'Lusice Sans Unicode';
@@ -52,7 +52,7 @@ a:hover, a:active{
 
 .mainheader nav
 {
-	background-image: url('cool.jpg');
+	background-image: url('background-main.jpg');
 	height: 40px;
 	width:500px;
 	border-radius: 5px;
