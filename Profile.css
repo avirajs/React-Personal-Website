@@ -1,4 +1,6 @@
 /**/
+
+
 body
 {
 	background-image: url('background-main.jpg');
@@ -14,27 +16,29 @@ body
 	color: #999;
 	font-size:87%;
 }
-a
+a, a:link
 {
 	text-decoration: none;
-	
-}
-a:link
-{
-	color: #CF5C3F;
+	color: red;
 }
 
 a:visited
 {
- 
+	color: blue;
 }
-a:hover, a:active{
+
+a:active
+{
+
+}
+
+a:hover{
 	background-color: #CF5C3F;
 	color:#FFF;
 }
 .body
 {
-	
+
 	margin: 0 auto;
 	width: 70%;
 	clear: both;
@@ -94,7 +98,7 @@ a:hover, a:active{
 }
 .maincontent
 {
-	
+
 	line-height: 25px;
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -102,7 +106,7 @@ a:hover, a:active{
 }
 .content
 {
-	
+
 	width: 50%;
 	float:left;
 }
@@ -114,7 +118,7 @@ a:hover, a:active{
 }
 .topcontent
 {
-	
+
 	background-color:rgba(255,255,255,0.60);
 	border-radius: 5px;
 	-moz-border-radius: 5px;
@@ -134,7 +138,7 @@ a:hover, a:active{
 }
 .top-sidebar
 {
-	
+
 
 	width: 30%;
 	float: left;
@@ -143,14 +147,14 @@ a:hover, a:active{
 	-webkit-border-radius: 5px;
 	margin: 2% 0 2% 3%;
 	padding: 1% 1%;
-	
+
 }
 .top-sidebar nav ul
 {
 	list-style: none;
 	margin: 0 auto;
 	display: inline-block;
-    list-style-type: none; 
+    list-style-type: none;
 }
 .top-sidebar nav ul li
 {
