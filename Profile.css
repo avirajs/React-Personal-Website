@@ -6,6 +6,36 @@
 	font-family: Arial, Helvetica, sans-serif;
 	color: orange;
 }
+
+[title~="profile"]
+{
+	float:left;
+	margin: 0% 5% 0% 0%;
+	max-width: 100%;
+    height: auto;
+		border-radius: 50px;
+}
+
+[title~="scholarship"] {
+  border: 5px solid orange;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+
+[title~="martial"] {
+  border: 5px solid orange;
+	height: 200px;
+	float: left;
+	margin-right: 30px;
+}
+
+[title~="martial"]:hover, [title~="martial"]:active,
+[title~="scholarship"]:hover,[title~="scholarship"]:active
+{
+	border-color: #bfcf3f;
+}
+
 body
 {
 	background-color: #237875;
@@ -14,6 +44,9 @@ body
 	font-family: Arial, 'Lusice Sans Unicode';
 	line-height: 1.5;
 	text-align: left;
+	margin: 0 auto;
+	width: 80%;
+	clear: both;
 }
 
 td:first-child {
@@ -47,24 +80,9 @@ a:hover
 }
 
 
-body
-{
-
-	margin: 0 auto;
-	width: 80%;
-	clear: both;
-}
 
 
 
-#profilepic
-{
-	float:left;
-	margin: 0% 5% 0% 0%;
-	max-width: 100%;
-    height: auto;
-		border-radius: 50px;
-}
 
 
 #mainheader nav
