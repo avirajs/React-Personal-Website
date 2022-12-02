@@ -25,8 +25,10 @@ function Navbar() {
       </div>
       <div className="links">
         <Link to="/"> Home </Link>
-        <Link to="/projects"> Projects/Publications </Link>
-        <Link to="/experience"> Skills/Experience </Link>
+        <Link to="/projects"> Portfolio </Link>
+        <Link to="/experience"> Experience </Link>
+        <a href="https://www.linkedin.com/in/aviraj-sinha?original_referer=https%3A%2F%2Fduckduckgo.com%2F"> Blog </a>
+        <a href="https://github.com/avirajs/Personal_Resume/blob/master/Sinha_Resume.pdf"> Resume </a>
       </div>
     </div>
   );

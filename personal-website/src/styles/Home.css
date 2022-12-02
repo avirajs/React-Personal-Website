@@ -3,10 +3,12 @@
   align-items: center;
   font-family: "Arial", sans-serif;
   color: #3e497a;
+  display: flex;
+  flex-direction: row;
 }
 
 .about {
-  width: 100%;
+  width: 33%;
   height: calc(100vh - 100px);
   display: flex;
   flex-direction: column;
@@ -36,7 +38,7 @@
 
 .skills {
   font-size: 35px;
-  width: 100%;
+  width: 66%;
   display: flex;
   justify-content: center;
   flex-direction: column;

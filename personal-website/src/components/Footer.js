@@ -9,12 +9,12 @@ function Footer() {
   return (
     <div className="footer">
       <div className="socialMedia">
-        <InstagramIcon />
+        <a href="https:www.instagram.com"> <InstagramIcon /> </a>
         <TwitterIcon />
         <FacebookIcon />
         <LinkedInIcon />
       </div>
-      <p> &copy; 2022 pedrotech.com</p>
+      <p> &copy; 2022aviraj.github.io</p>
     </div>
   );
 }
